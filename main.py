@@ -6,7 +6,7 @@ room -- to /output/entry.txt (program/v1).
 
 import os
 
-ENTRY = "DO NOT REBOOT: the ghost in Rack 7 is mid-update and he has root. Knock twice. He is the firewall now."
+ENTRY = "DO NOT REBOOT: the ghost in Rack 7 is mid-update and he has root. Knock twice. He IS the firewall now."
 
 def main() -> None:
     if not (1 <= len(ENTRY) <= 120):
